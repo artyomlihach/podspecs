@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                = { "Username" => "username@mail.domain" }
   s.platform              = :ios, '7.0'
   s.source                = { :git => "https://github.com/artyomlihach/MyProjectHelpers.git", :tag => s.version.to_s }
-  s.source_files          = 'Classes/*.{h,m}'
+  s.source_files          = 'Classes/**/*.{h,m}'
   s.public_header_files   = 'Classes/*.h'
   s.framework             = 'Foundation'
   s.requires_arc          = true
